@@ -1,0 +1,62 @@
+body{
+    background-color:black;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+h1{
+    color:red;
+    text-align: center;
+    text-decoration: underline;
+}
+section{
+    color: white;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding-top: 2%;
+}
+#intro{
+    text-align: center;
+    margin-left: 1%;
+}
+#first{
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 3%;
+    z-index: 10;
+
+}
+#second{
+    display: none;
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 3%;
+    z-index: 10;
+    width: 207px;
+    height:350px;
+    transition: .5s ease;
+
+}
+#photo:hover #second{
+    display: inline;
+
+}
+#diplomes{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 8%;
+}
+#pro{
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 8%;
+}
+#interet{
+    position: absolute;
+    text-align: center;
+    margin-left: 43%;
+    margin-top: 28%;
+}
